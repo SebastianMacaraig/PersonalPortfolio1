@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+  .navbar{
+    font-family: 'Bebas Neue', cursive;
+    
+     
+ }
+ 
+ 
+ 
+ .nav-item{
+     font-family: 'Amatic SC', cursive;
+     font-size: larger;
+     font-weight: 900;
+    
+   
+     
+     
+ }
+ 
+ .dropdown-menu{
+     font-weight: bolder;
+ 
+ }
+
+ .foot{
+    text-align: center;
+    background-color: black;
+    font-size: 20px;
+    color: white;    
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+  /* Container for flexboxes */
+  section {
+    display: -webkit-flex;
+    display: flex;
+  
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: black;
+    padding-bottom: 60%;
+    padding-left: 20px;
+    padding-right: 5px;
+
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    nav {
+      width: 100%;
+      padding-bottom: 30%;
+      background-color: black;
+      padding-left: 20px;
+      padding-right: 20px;
+      
+    }
+    .cert {
+        font-size: 25px !important;
+    }
+    .navigate{
+        font-size: 15px !important;
+    }
+    
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+    /* Style the content */
+    article {
+        -webkit-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
+        background-color: #f1f1f1;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 40px;
+      }
+.navigate{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }    
+
+  .navigate:hover{
+    color: green;
+    
+  }
+  /*.navigate:visited{
+    color: red; 
+  }*/
+
+  h4{
+    color: white;
+  }
+  .cert{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+  }
+
+.back2top{
+    margin-left: 50px;
+    margin-right: 90%;
+    margin-bottom: 10px;
+}
+
+.back{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.back:hover{
+    color: green;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+body{
+    background-image: url("https://marketplace.canva.com/EADajitulkE/1/0/1600w/canva-photo-of-mountain-travel-quote-winter-desktop-wallpaper-Hub8BAKbPJM.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1in;
+}
+
+img{
+    object-fit: fill;
+    display: block;
+    transition: 1s;
+    margin-top: .5cm;
+    opacity: 0.2;
+    
+}
+img:hover{
+    width: 700px;
+    height: 700px;
+    opacity: 1;
+}
+.gallery{
+    float:left;
+}
+.message{
+    font-family: 'Indie Flower', cursive;
+    width: 80vw;
+    font-size: 25px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.171);
+    margin: 15px 0px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+    text-align: justify;
+}
+h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    color: #ffffffdc;
+}
+
+.backhome{
+    text-decoration: none !important;
+    color: white !important;
+
+    
+}
+
+.backhome:hover{
+    color: #08F7FE !important;
+    
+}
+
+.title{
+    margin-top: 50px !important;
+}

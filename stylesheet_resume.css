@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  /* Style the header */
+.headermain{
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  
+  /* Container for flexboxes */
+  section {
+    display: -webkit-flex;
+    display: flex;
+  
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: black;
+    padding-bottom: 60%;
+
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    nav {
+      width: 100%;
+      padding-bottom: 30%;
+      background-color: black;
+    }
+    .contactdetails{
+      font-size: smaller;
+    }
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style the content */
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+
+  .foot{
+    text-align: center;
+    background-color: black;
+    font-size: 20px;
+    color: white;    
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+}
+
+.navbar{
+    font-family: 'Bebas Neue', cursive;
+    
+     
+ }
+ 
+ 
+ 
+ .nav-item{
+     font-family: 'Amatic SC', cursive;
+     font-size: larger;
+     font-weight: 900;
+    
+   
+     
+     
+ }
+ 
+ .dropdown-menu{
+     font-weight: bolder;
+ 
+ }
+
+.profile{
+  max-width: 30%;
+  height: auto;
+  margin-left: 150px;
+  margin-right: 50px;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+
+  color: white;
+}
+
+.fa-twitter {
+
+  color: white;
+}
+
+.fa-google {
+ 
+  color: white;
+}
+.fa-instagram {
+ 
+  color: white;
+}
+
+.about{
+  color: white;
+  text-align: justify;
+  text-indent: 50px;
+  font-family: 'Noto Serif', serif;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+.me{
+  color: white;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  font-size: 25PX;
+}
+.headname{
+  text-align: left;
+  font-weight: bold;
+  font-size:30px;
+ /* border-right: 9px solid blue; */
+  
+}
+
+.position{
+  font-weight: 100;
+}
+
+.contactdetails{
+  line-height: 10px;
+  margin-right: 100px;
+  
+}
+.line1{
+  color: white;
+}
+
+.mainbody{
+  margin-top: 20px;
+}
+
+.middleline{
+  border-right: 1px solid black;
+  padding-top: 15px;
+  margin-left: 30px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+.desc1{
+  font-family: 'Noto Serif', serif;
+  font-weight: 100;
+  
+}
+
+.job{
+  padding-top: 15px;
+  margin-left: 30px;
+  text-align: justify;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+}
+
+
+
+#work{
+  margin-bottom: 50px;
+  font-family: 'Oswald', sans-serif;
+  padding-right: 150px;
+  font-weight: bolder;
+}
+
+.loc{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+}
+
+.rank{
+  padding-top: 15px;
+  margin-left: 30px;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+}
+
+.award{
+  font-family: 'Noto Serif', serif;
+  font-weight: 100;
+}
+

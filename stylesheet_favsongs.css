@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    background-image: url("https://wallpapercave.com/wp/wp5685546.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white; 
+    
+}
+.left{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+}
+header h1{
+    
+    text-align: center;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 100px;
+    color: #08F7FE;
+    font-style: italic;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+}
+.content{
+    font-size: 30px;
+    font-family: 'Special Elite', cursive;
+    font-weight: bold;
+    margin-left: 3in !important;
+    margin-right: 3in !important;
+    padding-bottom: 1in !important;
+    
+}
+a{
+    text-decoration: none !important;
+    color: chartreuse !important;
+}
+a:hover{
+    color: crimson !important;
+}
+img:hover{
+    width: 500px;
+    height: 500px;
+    
+}
+img{
+    object-fit: fill;
+    display: block;
+    transition: 1s;
+}
+.artist{
+    color: white !important;
+}
+
+.foot{
+    text-align: center;
+    background-color: black;
+    font-size: 20px;
+    color: white;    
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+    margin-top: 8%;
+    margin-left: 0%;
+}
+
+.backhome{
+    text-decoration: none !important;
+    color: white !important;
+
+    
+}
+
+.backhome:hover{
+    color: #08F7FE !important;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    header h1{
+        font-size: 50px;
+    }
+    
+    content{
+        margin-left: 1cm !important;
+        margin-right: 1cm !important;
+    }
+    
+  }

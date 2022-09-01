@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+body{
+    background: url(https://i.pinimg.com/originals/45/3f/dd/453fddd481892aedca4dd85371f68811.jpg);
+    color: white !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 1in;
+}
+a{
+    text-decoration: none !important;
+    color: white !important;
+    font-family: 'Space Mono', monospace;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 5em !important;
+    
+}
+.pagetitle{
+    font-size: 3em ;
+    font-family: 'Comforter', cursive;
+}
+.material-icons{
+    color: rgb(255, 255, 255) !important;
+    font-size: 3em !important;
+    padding-top: 1cm ;
+    padding-right: 5cm;
+    
+}
+.material-icons:hover{
+    color: crimson !important;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: bold;
+}
+nav{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: -100vh;
+    left: 0;
+    background: url(https://wallpaperwaifu.com/wp-content/uploads/2020/04/enmusubi-no-kami-falling-petals-onmyoji-thumb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    transition: .8s;
+    
+}
+
+nav ul li{
+    list-style: none !important; 
+}
+nav ul li a{
+    font-size: 4em !important;
+    padding: 0.25em !important;
+    
+}
+nav ul li a:hover{
+    color: crimson !important;
+    font-weight: bold;
+    border-left: 5px solid;
+    border-right: 5px solid;
+    transition: .5s;
+    
+}
+.close{
+    
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    font-size: 3em;
+    
+}
+
+#menu{
+    padding-top: 20em !important;
+    padding-left: 5em;
+}
+.container{
+    padding-top: 1cm;
+}
+.container h4{
+    font-family: 'Orbitron', sans-serif;
+    cursor: default;
+}
+.container p{
+    font-family: 'Federo', sans-serif;
+    text-align: justify;
+}
+.categorya{
+    background-color: crimson;
+    height: 500px;
+    width: 330px;
+    margin-bottom: 3cm !important;
+}
+.categoryb{
+    background-color: crimson;
+    height: 500px;
+    width: 330px;
+}
+.categoryc{
+    background-color: crimson;
+    height: 500px;
+    width: 330px;
+}
+.categoryd{
+    background-color: crimson;
+    height: 500px;
+    width: 330px;
+}
+.categorye{
+    background-color: crimson;
+    height: 500px;
+    width: 330px;
+}
+.categoryf{
+    background-color: crimson;
+    height: 500px;
+    width: 330px;
+}
+.container .categorya::before{
+    content:'';
+    position: absolute;
+    left: 15px;
+    width: 330px;
+    height: 450px;
+    background-image: url(https://onmyojiguide.com/wp-content/uploads/2020/03/Sp-Tama-full-body.png);
+    background-repeat: no-repeat;
+    background-color: crimson;
+    background-position-y: top;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 300ms;
+    margin-top: .5cm;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .categoryb::before{
+    content:'';
+    position: absolute;
+    left: 15px;
+    width: 330px;
+    height: 450px;
+    background-image: url(./monumental.png);
+    background-repeat: no-repeat;
+    background-color: crimson;
+    background-position-y: top;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 300ms;
+    margin-top: .5cm;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .categoryc::before{
+    content:'';
+    position: absolute;
+    left: 15px;
+    width: 330px;
+    height: 450px;
+    background-image: url(https://onmyojiguide.com/wp-content/uploads/2020/03/Sp-shuten-full-body.png);
+    background-repeat: no-repeat;
+    background-color: crimson;
+    background-position-y: top;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 300ms;
+    margin-top: .5cm;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .categoryd::before{
+    content:'';
+    position: absolute;
+    left: 15px;
+    width: 330px;
+    height: 450px;
+    background-image: url(https://onmyojiguide.com/wp-content/uploads/2020/03/Enmusubi-full-body.png);
+    background-repeat: no-repeat;
+    background-color: crimson;
+    background-position-y: top;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 300ms;
+    margin-top: .5cm;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .categorye::before{
+    content:'';
+    position: absolute;
+    left: 15px;
+    width: 330px;
+    height: 450px;
+    background-image: url(https://onmyojiguide.com/wp-content/uploads/2017/03/Princess-Kaguya-Onmyoji-Shikigami.png);
+    background-repeat: no-repeat;
+    background-color: crimson;
+    background-position-y: top;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 300ms;
+    margin-top: .5cm;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .categoryf::before{
+    content:'';
+    position: absolute;
+    left: 15px;
+    width: 330px;
+    height: 450px;
+    background-image: url(https://onmyojiguide.com/wp-content/uploads/2017/01/Abe-no-Seimei-Onmyoji-Mobile-Game.png);
+    background-repeat: no-repeat;
+    background-color: crimson;
+    background-position-y: top;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 300ms;
+    margin-top: .5cm;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .categorya:hover:before{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 300ms;
+}
+.container .categoryb:hover:before{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 300ms;
+}
+.container .categoryc:hover:before{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 300ms;
+}
+.container .categoryd:hover:before{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 300ms;
+}
+.container .categorye:hover:before{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 300ms;
+}
+.container .categoryf:hover:before{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 300ms;
+}
+.container .categorya:hover h2{
+    opacity: 1;
+    color: black;
+    transform: translateY(-30px);
+    font-family: 'RocknRoll One', sans-serif;
+
+}
+.container .categoryb:hover h2{
+    opacity: 1;
+    color: black;
+    transform: translateY(-30px);
+    font-family: 'RocknRoll One', sans-serif;
+
+}
+.container .categoryc:hover h2{
+    opacity: 1;
+    color: black;
+    transform: translateY(-30px);
+    font-family: 'RocknRoll One', sans-serif;
+
+}
+.container .categoryd:hover h2{
+    opacity: 1;
+    color: black;
+    transform: translateY(-30px);
+    font-family: 'RocknRoll One', sans-serif;
+
+}
+.container .categorye:hover h2{
+    opacity: 1;
+    color: black;
+    transform: translateY(-30px);
+    font-family: 'RocknRoll One', sans-serif;
+
+}
+.container .categoryf:hover h2{
+    opacity: 1;
+    color: black;
+    transform: translateY(-30px);
+    font-family: 'RocknRoll One', sans-serif;
+
+}
+.container .categorya h3{
+    position:static;
+    z-index: 2;
+    transform: 300ms;
+    font-family: 'RocknRoll One', sans-serif;
+}
+.container .categoryb h3{
+    position:static;
+    z-index: 2;
+    transform: 300ms;
+    font-family: 'RocknRoll One', sans-serif;
+}
+.container .categoryc h3{
+    position:static;
+    z-index: 2;
+    transform: 300ms;
+    font-family: 'RocknRoll One', sans-serif;
+}
+.container .categoryd h3{
+    position:static;
+    z-index: 2;
+    transform: 300ms;
+    font-family: 'RocknRoll One', sans-serif;
+}
+.container .categorye h3{
+    position:static;
+    z-index: 2;
+    transform: 300ms;
+    font-family: 'RocknRoll One', sans-serif;
+}
+.container .categoryf h3{
+    position:static;
+    z-index: 2;
+    transform: 300ms;
+    font-family: 'RocknRoll One', sans-serif;
+}
+.container .tamamo h5, .skillf{
+    padding: 0;
+    position: relative;
+    z-index: 2;
+    transition: 300ms;
+    color: white;
+    top: 0;
+    font-size: 19px;
+}
+.container .otakemaru h5, .skillf{
+    padding: 0;
+    position: relative;
+    z-index: 2;
+    transition: 300ms;
+    color: white;
+    top: 0;
+    font-size: 19px;
+}
+.container .shuten h5, .skillf{
+    padding: 0;
+    position: relative;
+    z-index: 2;
+    transition: 300ms;
+    color: white;
+    top: 0;
+    font-size: 19px;
+}
+.container .enmusubi h5, .skillf{
+    padding: 0;
+    position: relative;
+    z-index: 2;
+    transition: 300ms;
+    color: white;
+    top: 0;
+    font-size: 19px;
+}
+.container .kaguya h5, .skillf{
+    padding: 0;
+    position: relative;
+    z-index: 2;
+    transition: 300ms;
+    color: white;
+    top: 0;
+    font-size: 19px;
+}
+.container .semei h5, .skillf{
+    padding: 0;
+    position: relative;
+    z-index: 2;
+    transition: 300ms;
+    color: white;
+    top: 0;
+    font-size: 19px;
+}
+.container .tamamo .name{
+    font-weight: 600;
+}
+.container .tamamo .stats{
+    opacity: 0;
+}
+.tamamo:hover .stats{
+    opacity: 1;
+}
+.container .tamamo .skillf{
+    opacity: 0;
+}
+.tamamo:hover .skillf{
+    opacity: 1;
+}
+.container .otakemaru .name{
+    font-weight: 600;
+}
+.container .otakemaru .stats{
+    opacity: 0;
+}
+.otakemaru:hover .stats{
+    opacity: 1;
+}
+.container .otakemaru .skillf{
+    opacity: 0;
+}
+.otakemaru:hover .skillf{
+    opacity: 1;
+}
+.container .shuten .name{
+    font-weight: 600;
+}
+.container .shuten .stats{
+    opacity: 0;
+}
+.shuten:hover .stats{
+    opacity: 1;
+}
+.container .shuten .skillf{
+    opacity: 0;
+}
+.shuten:hover .skillf{
+    opacity: 1;
+}
+.container .enmusubi .name{
+    font-weight: 600;
+}
+.container .enmusubi .stats{
+    opacity: 0;
+}
+.enmusubi:hover .stats{
+    opacity: 1;
+}
+.container .enmusubi .skillf{
+    opacity: 0;
+}
+.enmusubi:hover .skillf{
+    opacity: 1;
+}
+.container .kaguya .name{
+    font-weight: 600;
+}
+.container .kaguya .stats{
+    opacity: 0;
+}
+.kaguya:hover .stats{
+    opacity: 1;
+}
+.container .kaguya .skillf{
+    opacity: 0;
+}
+.kaguya:hover .skillf{
+    opacity: 1;
+}
+.container .semei .name{
+    font-weight: 600;
+}
+.container .semei .stats{
+    opacity: 0;
+}
+.semei:hover .stats{
+    opacity: 1;
+}
+.container .semei .skillf{
+    opacity: 0;
+}
+.semei:hover .skillf{
+    opacity: 1;
+}
+.speed{
+    position:absolute;
+    width: 55%;
+}
