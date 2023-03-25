@@ -17,16 +17,10 @@ body{
     
 }
 
-
-
 .nav-item{
     font-family: 'Amatic SC', cursive;
     font-size: larger;
-    font-weight: 900;
-   
-  
-    
-    
+    font-weight: 900; 
 }
 
 .dropdown-menu{
